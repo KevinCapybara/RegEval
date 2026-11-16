@@ -1,4 +1,4 @@
-**1st Place of the Raycaster Challenge ($500) at the DNA Forge & MTC Berkeley: AI x Biology Hackathon**
+**Won 1st Place of the Raycaster Challenge at the DNA Forge & MTC Berkeley: AI x Biology Hackathon**
 
 # RegEval Task Design and Evaluation
 
