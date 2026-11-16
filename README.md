@@ -1,3 +1,5 @@
+**1st Place of the Raycaster Challenge ($500) at the DNA Forge & MTC Berkeley: AI x Biology Hackathon**
+
 # RegEval Task Design and Evaluation
 
 Built for the **Raycaster track** at the **DNAForge & MTC Berkeley AI × Biology Hackathon** (November 14, 2026).
