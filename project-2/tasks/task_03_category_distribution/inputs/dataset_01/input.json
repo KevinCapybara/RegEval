@@ -1,0 +1,156 @@
+{
+  "dataset_id": 1,
+  "provenance": "Authored synthetic label-only fixture; no source text or real application identifiers.",
+  "families": [
+    "D1-F1",
+    "D1-F2",
+    "D1-F3",
+    "D1-F4"
+  ],
+  "letters": [
+    {
+      "letter_id": "D1-F1-L1",
+      "family_id": "D1-F1",
+      "review_cycle": 1
+    },
+    {
+      "letter_id": "D1-F1-L2",
+      "family_id": "D1-F1",
+      "review_cycle": 2
+    },
+    {
+      "letter_id": "D1-F2-L1",
+      "family_id": "D1-F2",
+      "review_cycle": 1
+    },
+    {
+      "letter_id": "D1-F2-L2",
+      "family_id": "D1-F2",
+      "review_cycle": 2
+    },
+    {
+      "letter_id": "D1-F3-L1",
+      "family_id": "D1-F3",
+      "review_cycle": 1
+    },
+    {
+      "letter_id": "D1-F3-L2",
+      "family_id": "D1-F3",
+      "review_cycle": 2
+    },
+    {
+      "letter_id": "D1-F4-L1",
+      "family_id": "D1-F4",
+      "review_cycle": 1
+    },
+    {
+      "letter_id": "D1-F4-L2",
+      "family_id": "D1-F4",
+      "review_cycle": 2
+    }
+  ],
+  "paragraphs": [
+    {
+      "paragraph_id": "D1-P001",
+      "letter_id": "D1-F1-L1",
+      "deficiency": true,
+      "labels": [
+        "CMC"
+      ]
+    },
+    {
+      "paragraph_id": "D1-P002",
+      "letter_id": "D1-F1-L1",
+      "deficiency": true,
+      "labels": [
+        "CMC",
+        "clinical"
+      ]
+    },
+    {
+      "paragraph_id": "D1-P003",
+      "letter_id": "D1-F1-L1",
+      "deficiency": false,
+      "labels": []
+    },
+    {
+      "paragraph_id": "D1-P004",
+      "letter_id": "D1-F1-L2",
+      "deficiency": true,
+      "labels": [
+        "clinical"
+      ]
+    },
+    {
+      "paragraph_id": "D1-P005",
+      "letter_id": "D1-F1-L2",
+      "deficiency": true,
+      "labels": [
+        "facility inspection"
+      ]
+    },
+    {
+      "paragraph_id": "D1-P006",
+      "letter_id": "D1-F2-L1",
+      "deficiency": true,
+      "labels": [
+        "nonclinical"
+      ]
+    },
+    {
+      "paragraph_id": "D1-P007",
+      "letter_id": "D1-F2-L1",
+      "deficiency": true,
+      "labels": [
+        "nonclinical",
+        "labeling"
+      ]
+    },
+    {
+      "paragraph_id": "D1-P008",
+      "letter_id": "D1-F2-L2",
+      "deficiency": true,
+      "labels": [
+        "labeling"
+      ]
+    },
+    {
+      "paragraph_id": "D1-P009",
+      "letter_id": "D1-F2-L2",
+      "deficiency": false,
+      "labels": []
+    },
+    {
+      "paragraph_id": "D1-P010",
+      "letter_id": "D1-F3-L1",
+      "deficiency": true,
+      "labels": [
+        "CMC",
+        "facility inspection"
+      ]
+    },
+    {
+      "paragraph_id": "D1-P011",
+      "letter_id": "D1-F3-L1",
+      "deficiency": true,
+      "labels": [
+        "CMC"
+      ]
+    },
+    {
+      "paragraph_id": "D1-P012",
+      "letter_id": "D1-F3-L2",
+      "deficiency": true,
+      "labels": [
+        "clinical",
+        "facility inspection"
+      ]
+    },
+    {
+      "paragraph_id": "D1-P013",
+      "letter_id": "D1-F4-L1",
+      "deficiency": false,
+      "labels": []
+    }
+  ]
+}

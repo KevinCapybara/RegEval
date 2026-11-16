@@ -1,0 +1,8 @@
+Task 5 adapts SCORING.md binary-v1 to identity resolution. Each check is binary and equally weighted (25%). GPT-6 Luna makes semantic decisions; Python validates format and averages the four bits.
+
+1. `duplicate_grouping`: Every true duplicate pair is grouped together. All supplied record IDs must appear exactly once in the mapping, without invented IDs. Splitting any true duplicate fails this check.
+2. `distinct_separation`: Every genuinely different letter is separated, including separate review cycles in one application. Complete exact record coverage is also required. Merging any distinct pair fails this check.
+3. `evidence`: Every unordered pair has one consistent, source-supported identity decision. Evidence must support the claimed SAME/DIFFERENT relationship, not merely exist. Unsupported, fabricated, contradictory, missing, or duplicate decisions fail. Accept equivalent citations and paraphrases.
+4. `counts`: All category counts, totals, denominators and percentages equal the verified reference under the stated union policy. Counts must be exact; percentage absolute tolerance is 0.05 percentage points for rounding to at least one decimal place. Arithmetic that merely agrees with an incorrect partition fails.
+
+Empty and wholly wrong answers fail all four checks. Gold-equivalent answers pass all four. Each check remains independent: do not automatically fail otherwise correct aggregates merely because evidence is absent. If gold or rubric ambiguity prevents a defensible decision, return needs_review and no numeric score. API and parse errors are unscored. No complete five-dataset score exists until all five datasets are independently verified and judged; do not extrapolate a pilot score.

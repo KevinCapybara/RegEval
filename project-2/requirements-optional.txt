@@ -1,0 +1,4 @@
+-r requirements.txt
+openai>=1.70
+python-dotenv>=1
+streamlit>=1.40

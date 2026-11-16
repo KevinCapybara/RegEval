@@ -1,0 +1,130 @@
+{
+  "rows": [
+    {
+      "dataset": "dataset_01",
+      "name": "gpt-5-nano",
+      "status": "scored",
+      "score": 0.25,
+      "criteria": {
+        "recall": 1,
+        "precision": 0,
+        "evidence": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "dataset": "dataset_01",
+      "name": "gpt-6-luna",
+      "status": "scored",
+      "score": 1.0,
+      "criteria": {
+        "recall": 1,
+        "precision": 1,
+        "evidence": 1,
+        "coverage": 1
+      }
+    },
+    {
+      "dataset": "dataset_02",
+      "name": "gpt-5-nano",
+      "status": "scored",
+      "score": 0.5,
+      "criteria": {
+        "recall": 0,
+        "precision": 1,
+        "evidence": 1,
+        "coverage": 0
+      }
+    },
+    {
+      "dataset": "dataset_02",
+      "name": "gpt-6-luna",
+      "status": "scored",
+      "score": 1.0,
+      "criteria": {
+        "recall": 1,
+        "precision": 1,
+        "evidence": 1,
+        "coverage": 1
+      }
+    },
+    {
+      "dataset": "dataset_03",
+      "name": "gpt-5-nano",
+      "status": "scored",
+      "score": 0.25,
+      "criteria": {
+        "recall": 1,
+        "precision": 0,
+        "evidence": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "dataset": "dataset_03",
+      "name": "gpt-6-luna",
+      "status": "scored",
+      "score": 0.75,
+      "criteria": {
+        "recall": 1,
+        "precision": 1,
+        "evidence": 0,
+        "coverage": 1
+      }
+    },
+    {
+      "dataset": "dataset_04",
+      "name": "gpt-5-nano",
+      "status": "scored",
+      "score": 0.25,
+      "criteria": {
+        "recall": 1,
+        "precision": 0,
+        "evidence": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "dataset": "dataset_04",
+      "name": "gpt-6-luna",
+      "status": "scored",
+      "score": 1.0,
+      "criteria": {
+        "recall": 1,
+        "precision": 1,
+        "evidence": 1,
+        "coverage": 1
+      }
+    },
+    {
+      "dataset": "dataset_05",
+      "name": "gpt-5-nano",
+      "status": "scored",
+      "score": 1.0,
+      "criteria": {
+        "recall": 1,
+        "precision": 1,
+        "evidence": 1,
+        "coverage": 1
+      }
+    },
+    {
+      "dataset": "dataset_05",
+      "name": "gpt-6-luna",
+      "status": "scored",
+      "score": 1.0,
+      "criteria": {
+        "recall": 1,
+        "precision": 1,
+        "evidence": 1,
+        "coverage": 1
+      }
+    }
+  ],
+  "means": {
+    "gpt-6-luna": 0.95,
+    "gpt-5-nano": 0.45
+  },
+  "calibration_matched": 22,
+  "calibration_total": 22
+}

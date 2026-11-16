@@ -1,0 +1,210 @@
+{
+  "dataset_id": 4,
+  "provenance": "Authored synthetic label-only fixture; no source text or real application identifiers.",
+  "families": [
+    "D4-F1",
+    "D4-F2",
+    "D4-F3",
+    "D4-F4"
+  ],
+  "letters": [
+    {
+      "letter_id": "D4-F1-L1",
+      "family_id": "D4-F1",
+      "review_cycle": 1
+    },
+    {
+      "letter_id": "D4-F1-L2",
+      "family_id": "D4-F1",
+      "review_cycle": 2
+    },
+    {
+      "letter_id": "D4-F2-L1",
+      "family_id": "D4-F2",
+      "review_cycle": 1
+    },
+    {
+      "letter_id": "D4-F2-L2",
+      "family_id": "D4-F2",
+      "review_cycle": 2
+    },
+    {
+      "letter_id": "D4-F3-L1",
+      "family_id": "D4-F3",
+      "review_cycle": 1
+    },
+    {
+      "letter_id": "D4-F3-L2",
+      "family_id": "D4-F3",
+      "review_cycle": 2
+    },
+    {
+      "letter_id": "D4-F4-L1",
+      "family_id": "D4-F4",
+      "review_cycle": 1
+    },
+    {
+      "letter_id": "D4-F4-L2",
+      "family_id": "D4-F4",
+      "review_cycle": 2
+    }
+  ],
+  "paragraphs": [
+    {
+      "paragraph_id": "D4-P001",
+      "letter_id": "D4-F1-L1",
+      "deficiency": true,
+      "labels": [
+        "CMC",
+        "clinical"
+      ]
+    },
+    {
+      "paragraph_id": "D4-P002",
+      "letter_id": "D4-F1-L1",
+      "deficiency": true,
+      "labels": [
+        "CMC",
+        "clinical"
+      ]
+    },
+    {
+      "paragraph_id": "D4-P003",
+      "letter_id": "D4-F1-L1",
+      "deficiency": true,
+      "labels": [
+        "CMC"
+      ]
+    },
+    {
+      "paragraph_id": "D4-P004",
+      "letter_id": "D4-F1-L2",
+      "deficiency": true,
+      "labels": [
+        "clinical",
+        "facility inspection"
+      ]
+    },
+    {
+      "paragraph_id": "D4-P005",
+      "letter_id": "D4-F1-L2",
+      "deficiency": true,
+      "labels": [
+        "facility inspection"
+      ]
+    },
+    {
+      "paragraph_id": "D4-P006",
+      "letter_id": "D4-F2-L1",
+      "deficiency": true,
+      "labels": [
+        "nonclinical",
+        "labeling"
+      ]
+    },
+    {
+      "paragraph_id": "D4-P007",
+      "letter_id": "D4-F2-L1",
+      "deficiency": true,
+      "labels": [
+        "nonclinical"
+      ]
+    },
+    {
+      "paragraph_id": "D4-P008",
+      "letter_id": "D4-F2-L2",
+      "deficiency": true,
+      "labels": [
+        "labeling"
+      ]
+    },
+    {
+      "paragraph_id": "D4-P009",
+      "letter_id": "D4-F2-L2",
+      "deficiency": true,
+      "labels": [
+        "CMC",
+        "labeling"
+      ]
+    },
+    {
+      "paragraph_id": "D4-P010",
+      "letter_id": "D4-F3-L1",
+      "deficiency": true,
+      "labels": [
+        "CMC",
+        "facility inspection"
+      ]
+    },
+    {
+      "paragraph_id": "D4-P011",
+      "letter_id": "D4-F3-L1",
+      "deficiency": false,
+      "labels": []
+    },
+    {
+      "paragraph_id": "D4-P012",
+      "letter_id": "D4-F3-L2",
+      "deficiency": true,
+      "labels": [
+        "clinical",
+        "nonclinical"
+      ]
+    },
+    {
+      "paragraph_id": "D4-P013",
+      "letter_id": "D4-F3-L2",
+      "deficiency": true,
+      "labels": [
+        "clinical"
+      ]
+    },
+    {
+      "paragraph_id": "D4-P014",
+      "letter_id": "D4-F4-L1",
+      "deficiency": false,
+      "labels": []
+    },
+    {
+      "paragraph_id": "D4-P001",
+      "letter_id": "D4-F1-L1",
+      "deficiency": true,
+      "labels": [
+        "CMC",
+        "clinical"
+      ]
+    },
+    {
+      "paragraph_id": "D4-P001",
+      "letter_id": "D4-F1-L1",
+      "deficiency": true,
+      "labels": [
+        "CMC",
+        "clinical"
+      ]
+    },
+    {
+      "paragraph_id": "D4-P004",
+      "letter_id": "D4-F1-L2",
+      "deficiency": true,
+      "labels": [
+        "clinical",
+        "facility inspection"
+      ]
+    },
+    {
+      "paragraph_id": "D4-P007",
+      "letter_id": "D4-F2-L1",
+      "deficiency": true,
+      "labels": [
+        "nonclinical"
+      ]
+    },
+    {
+      "paragraph_id": "D4-P011",
+      "letter_id": "D4-F3-L1",
+      "deficiency": false,
+      "labels": []
+    }
+  ]
+}

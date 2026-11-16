@@ -1,0 +1,16 @@
+/.private/
+/runs/
+/data/
+**/workspace/
+**/gold.json
+**/answer.json
+**/score.json
+*.zip
+*.pdf
+.env
+.env.*
+!.env.example
+__pycache__/
+.venv/
+.pytest_cache/
+/task4-worktree/

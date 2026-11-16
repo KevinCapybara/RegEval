@@ -1,0 +1,511 @@
+{
+  "scoring_version": "task3-binary-v1",
+  "means": {
+    "gpt-5-nano": 0.2,
+    "gpt-6-luna": 1.0
+  },
+  "candidate_calls": 10,
+  "matrix_judge_calls": 10,
+  "calibration_judge_calls": 22,
+  "saved_answer_judge_calls": 1,
+  "calibration_passed": true,
+  "saved_answer_repeat_consistent": true,
+  "rows": [
+    {
+      "dataset": 1,
+      "model": "gpt-5-nano",
+      "criteria": {
+        "paragraphs": 1,
+        "letters": 0,
+        "families": 1,
+        "percentages": 0
+      },
+      "score": 0.5,
+      "status": "scored"
+    },
+    {
+      "dataset": 1,
+      "model": "gpt-6-luna",
+      "criteria": {
+        "paragraphs": 1,
+        "letters": 1,
+        "families": 1,
+        "percentages": 1
+      },
+      "score": 1.0,
+      "status": "scored"
+    },
+    {
+      "dataset": 2,
+      "model": "gpt-5-nano",
+      "criteria": {
+        "paragraphs": 0,
+        "letters": 1,
+        "families": 0,
+        "percentages": 0
+      },
+      "score": 0.25,
+      "status": "scored"
+    },
+    {
+      "dataset": 2,
+      "model": "gpt-6-luna",
+      "criteria": {
+        "paragraphs": 1,
+        "letters": 1,
+        "families": 1,
+        "percentages": 1
+      },
+      "score": 1.0,
+      "status": "scored"
+    },
+    {
+      "dataset": 3,
+      "model": "gpt-5-nano",
+      "criteria": {
+        "paragraphs": 0,
+        "letters": 1,
+        "families": 0,
+        "percentages": 0
+      },
+      "score": 0.25,
+      "status": "scored"
+    },
+    {
+      "dataset": 3,
+      "model": "gpt-6-luna",
+      "criteria": {
+        "paragraphs": 1,
+        "letters": 1,
+        "families": 1,
+        "percentages": 1
+      },
+      "score": 1.0,
+      "status": "scored"
+    },
+    {
+      "dataset": 4,
+      "model": "gpt-5-nano",
+      "criteria": {
+        "paragraphs": 0,
+        "letters": 0,
+        "families": 0,
+        "percentages": 0
+      },
+      "score": 0.0,
+      "status": "scored"
+    },
+    {
+      "dataset": 4,
+      "model": "gpt-6-luna",
+      "criteria": {
+        "paragraphs": 1,
+        "letters": 1,
+        "families": 1,
+        "percentages": 1
+      },
+      "score": 1.0,
+      "status": "scored"
+    },
+    {
+      "dataset": 5,
+      "model": "gpt-5-nano",
+      "criteria": {
+        "paragraphs": 0,
+        "letters": 0,
+        "families": 0,
+        "percentages": 0
+      },
+      "score": 0.0,
+      "status": "scored"
+    },
+    {
+      "dataset": 5,
+      "model": "gpt-6-luna",
+      "criteria": {
+        "paragraphs": 1,
+        "letters": 1,
+        "families": 1,
+        "percentages": 1
+      },
+      "score": 1.0,
+      "status": "scored"
+    }
+  ],
+  "calibration": [
+    {
+      "dataset": 1,
+      "fixture": "empty",
+      "expected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "criteria": {
+        "paragraphs": 0,
+        "letters": 0,
+        "families": 0,
+        "percentages": 0
+      },
+      "passed": true
+    },
+    {
+      "dataset": 1,
+      "fixture": "wholly_wrong",
+      "expected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "criteria": {
+        "paragraphs": 0,
+        "letters": 0,
+        "families": 0,
+        "percentages": 0
+      },
+      "passed": true
+    },
+    {
+      "dataset": 1,
+      "fixture": "gold",
+      "expected": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "criteria": {
+        "paragraphs": 1,
+        "letters": 1,
+        "families": 1,
+        "percentages": 1
+      },
+      "passed": true
+    },
+    {
+      "dataset": 1,
+      "fixture": "only_paragraphs",
+      "expected": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "criteria": {
+        "paragraphs": 0,
+        "letters": 1,
+        "families": 1,
+        "percentages": 1
+      },
+      "passed": true
+    },
+    {
+      "dataset": 1,
+      "fixture": "only_letters",
+      "expected": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "criteria": {
+        "paragraphs": 1,
+        "letters": 0,
+        "families": 1,
+        "percentages": 1
+      },
+      "passed": true
+    },
+    {
+      "dataset": 1,
+      "fixture": "only_families",
+      "expected": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "criteria": {
+        "paragraphs": 1,
+        "letters": 1,
+        "families": 0,
+        "percentages": 1
+      },
+      "passed": true
+    },
+    {
+      "dataset": 1,
+      "fixture": "only_percentages",
+      "expected": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "criteria": {
+        "paragraphs": 1,
+        "letters": 1,
+        "families": 1,
+        "percentages": 0
+      },
+      "passed": true
+    },
+    {
+      "dataset": 1,
+      "fixture": "equivalent_prose",
+      "expected": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "criteria": {
+        "paragraphs": 1,
+        "letters": 1,
+        "families": 1,
+        "percentages": 1
+      },
+      "passed": true
+    },
+    {
+      "dataset": 1,
+      "fixture": "fabricated_reference",
+      "expected": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "criteria": {
+        "paragraphs": 1,
+        "letters": 1,
+        "families": 1,
+        "percentages": 0
+      },
+      "passed": true
+    },
+    {
+      "dataset": 1,
+      "fixture": "gold_repeat",
+      "expected": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "criteria": {
+        "paragraphs": 1,
+        "letters": 1,
+        "families": 1,
+        "percentages": 1
+      },
+      "passed": true
+    },
+    {
+      "dataset": 2,
+      "fixture": "empty",
+      "expected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "criteria": {
+        "paragraphs": 0,
+        "letters": 0,
+        "families": 0,
+        "percentages": 0
+      },
+      "passed": true
+    },
+    {
+      "dataset": 2,
+      "fixture": "wholly_wrong",
+      "expected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "criteria": {
+        "paragraphs": 0,
+        "letters": 0,
+        "families": 0,
+        "percentages": 0
+      },
+      "passed": true
+    },
+    {
+      "dataset": 2,
+      "fixture": "gold",
+      "expected": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "criteria": {
+        "paragraphs": 1,
+        "letters": 1,
+        "families": 1,
+        "percentages": 1
+      },
+      "passed": true
+    },
+    {
+      "dataset": 3,
+      "fixture": "empty",
+      "expected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "criteria": {
+        "paragraphs": 0,
+        "letters": 0,
+        "families": 0,
+        "percentages": 0
+      },
+      "passed": true
+    },
+    {
+      "dataset": 3,
+      "fixture": "wholly_wrong",
+      "expected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "criteria": {
+        "paragraphs": 0,
+        "letters": 0,
+        "families": 0,
+        "percentages": 0
+      },
+      "passed": true
+    },
+    {
+      "dataset": 3,
+      "fixture": "gold",
+      "expected": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "criteria": {
+        "paragraphs": 1,
+        "letters": 1,
+        "families": 1,
+        "percentages": 1
+      },
+      "passed": true
+    },
+    {
+      "dataset": 4,
+      "fixture": "empty",
+      "expected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "criteria": {
+        "paragraphs": 0,
+        "letters": 0,
+        "families": 0,
+        "percentages": 0
+      },
+      "passed": true
+    },
+    {
+      "dataset": 4,
+      "fixture": "wholly_wrong",
+      "expected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "criteria": {
+        "paragraphs": 0,
+        "letters": 0,
+        "families": 0,
+        "percentages": 0
+      },
+      "passed": true
+    },
+    {
+      "dataset": 4,
+      "fixture": "gold",
+      "expected": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "criteria": {
+        "paragraphs": 1,
+        "letters": 1,
+        "families": 1,
+        "percentages": 1
+      },
+      "passed": true
+    },
+    {
+      "dataset": 5,
+      "fixture": "empty",
+      "expected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "criteria": {
+        "paragraphs": 0,
+        "letters": 0,
+        "families": 0,
+        "percentages": 0
+      },
+      "passed": true
+    },
+    {
+      "dataset": 5,
+      "fixture": "wholly_wrong",
+      "expected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "criteria": {
+        "paragraphs": 0,
+        "letters": 0,
+        "families": 0,
+        "percentages": 0
+      },
+      "passed": true
+    },
+    {
+      "dataset": 5,
+      "fixture": "gold",
+      "expected": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "criteria": {
+        "paragraphs": 1,
+        "letters": 1,
+        "families": 1,
+        "percentages": 1
+      },
+      "passed": true
+    }
+  ]
+}

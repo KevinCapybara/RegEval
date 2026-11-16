@@ -1,0 +1,67 @@
+{
+  "task": 5,
+  "candidate": "gpt-6-luna",
+  "judge": "gpt-6-luna",
+  "updated_at": "2026-11-14T23:31:02.678537+00:00",
+  "datasets_scored": 5,
+  "task_score": 0.95,
+  "calibration_passed": 15,
+  "limitation": "One genuine-duplicate dataset plus four distinct-letter negative controls; positive duplicate diversity remains limited to one pair. Annotations and gold are model-reviewed, not expert-certified.",
+  "results": [
+    {
+      "dataset": 1,
+      "status": "scored",
+      "score": 0.75,
+      "criteria": {
+        "duplicate_grouping": 1,
+        "distinct_separation": 1,
+        "evidence": 1,
+        "counts": 0
+      }
+    },
+    {
+      "dataset": 2,
+      "status": "scored",
+      "score": 1.0,
+      "criteria": {
+        "duplicate_grouping": 1,
+        "distinct_separation": 1,
+        "evidence": 1,
+        "counts": 1
+      }
+    },
+    {
+      "dataset": 3,
+      "status": "scored",
+      "score": 1.0,
+      "criteria": {
+        "duplicate_grouping": 1,
+        "distinct_separation": 1,
+        "evidence": 1,
+        "counts": 1
+      }
+    },
+    {
+      "dataset": 4,
+      "status": "scored",
+      "score": 1.0,
+      "criteria": {
+        "duplicate_grouping": 1,
+        "distinct_separation": 1,
+        "evidence": 1,
+        "counts": 1
+      }
+    },
+    {
+      "dataset": 5,
+      "status": "scored",
+      "score": 1.0,
+      "criteria": {
+        "duplicate_grouping": 1,
+        "distinct_separation": 1,
+        "evidence": 1,
+        "counts": 1
+      }
+    }
+  ]
+}
